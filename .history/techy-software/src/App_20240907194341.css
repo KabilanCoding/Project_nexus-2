@@ -1,0 +1,108 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  text-align: center;
+}
+
+.logo {
+  width: 80px;
+  margin-left: 20px;
+}
+
+.navbar {
+  background-color: #00000071;
+  overflow: hidden;
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.navbar ul li {
+  display: inline;
+  padding: 14px 20px;
+}
+
+.navbar ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.navbar ul li a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.section {
+  padding: 50px;
+}
+
+.home {
+  background: linear-gradient(120deg, #9c8f65 0%, hsla(120, 40%, 47%, 0.904) 100%);
+}
+
+.google-photos img {
+  width: 300px;
+  margin: 20px;
+  border-radius: 10px;
+}
+
+.about {
+  background-color: #f4f4f4;
+}
+
+.services {
+  background-color: #e8f6ff;
+}
+
+.contact {
+  background-color: #f4f4f4;
+}
+
+footer {
+  background-color: #333;
+  padding: 20px;
+  color: white;
+}
+
+.social-media a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: white;
+}
+
+.social-media a:hover {
+  text-decoration: underline;
+}
+
+form {
+  margin: 0 auto;
+  width: 60%;
+}
+
+input, textarea {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #333;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #555;
+}

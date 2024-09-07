@@ -1,0 +1,46 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #282c34;
+  color: white;
+  padding: 50px;
+  text-align: center;
+}
+
+.get-started-btn {
+  background-color: #61dafb;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.get-started-btn:hover {
+  background-color: #21a1f1;
+}
+
+.about-us, .our-works, .contact-us {
+  padding: 50px;
+  text-align: center;
+}
+
+.our-works .work-gallery img {
+  width: 30%;
+  margin: 10px;
+}
+
+.contact-us form input, .contact-us form textarea {
+  width: 80%;
+  padding: 10px;
+  margin: 10px;
+}
+
+.contact-us form button {
+  padding: 10px 20px;
+  background-color: #61dafb;
+  border: none;
+  cursor: pointer;
+}
